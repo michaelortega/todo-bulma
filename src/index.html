@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+<body>
+<section class="hero is-primary">
+    <div class="hero-head">
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <h1 class="title">Todo.</h1>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+            <input class="input" type="text" id="task" placeholder="Enter a task">
+        </div>
+        <div class="control ">
+            <button class="button is-primary" id="submit-button">Submit</button>
+        </div>
+    </div>
+    <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+            <input class="input" type="text" id="filter" placeholder="Search for a task">
+        </div>
+    </div>
+    <div class="field center">
+        <button class="button is-primary" id="clear-all">Clear All Tasks</button>
+    </div>
+
+</section>
+<section class="section">
+    <div class="content">
+        <div class="columns is-multiline is-centered">
+        </div>
+    </div>
+</section>
+<script defer src="app.js" type="text/javascript"></script>
+</body>
+</html>
